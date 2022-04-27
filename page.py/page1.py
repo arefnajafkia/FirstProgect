@@ -72,7 +72,11 @@ import time
 start = time.time()
 
 #شروي بازي 
+<<<<<<< HEAD
 print ("بياباهم بازي اعدادکنيم\nLet's play numbers together {},{}".format(g,name))
+=======
+print ("بياباهم بازي اعدادکنيم\nLet's play numbers together")
+>>>>>>> header
 print()
 print ( 'لطفا يک شماره از1تا 1000 انتخاب کن وبمن نگو\nPlease select a number from 1 to 1000 and do not say')
 print ("من ميپرسم تابتونم شماره روپيداکنم\nI'm asking for your Rupid number")
@@ -113,7 +117,11 @@ NoGuess = 1
 IsGuessTrue(Min, Max, Guess, NoGuess)
 
 print()
+<<<<<<< HEAD
 print ("ممنون که وقتتون روبمن داديد\nThank you for your time, {}.{}!".format(g,name))
+=======
+print ("ممنون که وقتتون روبمن داديد\nThank you for your time, Robman !")
+>>>>>>> header
 
 print()
 
