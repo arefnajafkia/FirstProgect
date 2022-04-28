@@ -1,4 +1,4 @@
-#sakhteh dafrar phone writh aref
+#sakhteh daftar phone writh aref
 from asyncore import read
 from logging import root
 from msilib.schema import Error, ListBox
