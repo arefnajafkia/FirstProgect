@@ -113,6 +113,13 @@ IsGuessTrue(Min, Max, Guess, NoGuess)
 
 print()
 print ("ممنون که وقتتون روبمن داديد\nThank you for your time, {}.{} !".format(g,name))
+<<<<<<< HEAD
+=======
+
+print()
+#تايم بازي راپرينت ميکند
+print("زمان بازي شما\nRun Time: " + str( time.time() - start ))
+>>>>>>> mybranch
 
 print()
 #تايم بازي راپرينت ميکند
