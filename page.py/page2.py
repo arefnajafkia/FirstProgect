@@ -23,7 +23,7 @@ root.config(bg= background)
 
 
 def Finding_btn():
-    with open('D:\Visual Studio\MyProject\page.py\page1\saved_Name.txt','r') as  f:
+    with open('D:\Visual Studio\MyProject\page.py\page2\saved_Name.txt','r') as  f:
         for line in f:
             if name_entry.get() in line:
                 
@@ -55,7 +55,7 @@ def delete_contact():
 def save_list():
     """ Save the list to a simple txt file """
             
-    with open('D:\Visual Studio\MyProject\page.py\page1\saved_Name.txt','w') as  f:
+    with open('D:\Visual Studio\MyProject\page.py\page2\saved_Name.txt','w') as  f:
           list_tuple = listbox.get(0, END)
           for item in list_tuple:
                if item.endswith('\n'):
@@ -64,7 +64,7 @@ def save_list():
                     f.write(item+'\n')
                     
 def open_list():
-        with open('D:\Visual Studio\MyProject\page.py\page1\saved_Name.txt','r') as  f:
+        with open('D:\Visual Studio\MyProject\page.py\page2\saved_Name.txt','r') as  f:
             for line in f:
                 listbox.insert(END, line)
 
