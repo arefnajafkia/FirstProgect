@@ -21,16 +21,13 @@ root.geometry('1000x400')
 background = '#121212'
 root.config(bg= background)
 
+
 def Finding_btn():
-
-    with open('D:\Visual Studio\MyProject\page.py\page1\saved_Name.txt','r') as f:
-
-        khotut = f.readlines()
-        for line in khotut:             
-            
-            line = name_entry.get() + ': ' + phone_entry.get() + ': ' + Mobile_entry.get() + ': '  + Address_entry.get() + ': ' + Maill_entry.get()
-            listbox.insert(END,line, '     ====  welcome   It was your request   Thank you  ====  ')
-
+    with open('D:\Visual Studio\MyProject\page.py\page1\saved_Name.txt','r') as  f:
+        for line in f:
+            if name_entry.get() in line:
+                
+                listbox.insert(END, line)
         
             
             name_entry.append(item)(0, END),
